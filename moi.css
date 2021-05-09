@@ -2,6 +2,7 @@ h1
 {
     color: blue;
     text-decoration: underline;  
+    text-align: center;
     
 
 }
@@ -12,21 +13,17 @@ h2
     text-decoration: underline;
 }
 
-p1
-{
-	color: white;
-	
-
-}
 
 
 
-body
-{
-	background-image: url(https://www.photoway.com/images/fonds-ecran/TDM96_1047-ayers-rock-1280x0800.jpg);
+
+
+body {
+	background-image: url(https://www.photoway.com/images/fonds-ecran/TDM96_1047-ayers-rock-1920x1200.jpg);
 	background-repeat: no-repeat; /* Le fond ne sera pas répété */
-	background-position: top center; /* Le fond sera placé au centre */
-
+	background-size: cover;
+	width : 100%;
+	height: 100%;
 
 }
 ul
@@ -40,6 +37,7 @@ a:hover
 	color: white;
 
 }
+
 
 
 
